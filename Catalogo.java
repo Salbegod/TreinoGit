@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Catalogo {
 
+	private String marca;
     private String modelo;
     private String ano;
     private String cor;
@@ -15,6 +16,6 @@ public class Catalogo {
     @Override
     public String toString() {
 
-        return this.modelo + " " + this.ano + " " + this.cor + " " + this.motor + " " + this.preco + " " + this.placa + " " + this.numRodas;
+        return this.marca + " " + this.modelo + " " + this.ano + " " + this.cor + " " + this.motor + " " + this.preco + " " + this.placa + " " + this.numRodas;
     }
 }
