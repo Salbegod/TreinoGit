@@ -3,14 +3,14 @@ import java.util.List;
 
 public class Catalogo {
 
-	private String marca;
-    private String modelo;
-    private String ano;
-    private String cor;
-    private double motor;
-    private int preco;
-    private String placa;
-    private int numRodas;
+	public String marca;
+    public String modelo;
+    public int ano;
+    public String cor;
+    public double motor;
+    public int preco;
+    public String placa;
+    public int numRodas;
     public static List<Veiculo> Veiculos = new ArrayList<>();
 
     @Override
