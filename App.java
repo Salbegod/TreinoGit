@@ -5,7 +5,7 @@
  * e pela classe que contém a interface com o usuario (pode ser texto) e o metodo main.
  *
  *
- * @author Miguel zanela,
+ * @author Miguel zanela, Arthur L Avila
  *
  * version 24 Ago 2020
  */
